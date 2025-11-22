@@ -11,8 +11,8 @@ dockerproject/
 3. Build Docker Image
 Open vscode in your project folder: docker build -t mywebpage .
 4. Run Docker Container
-Map the container port 80 to a free host port (example: 8082):
-docker run -d -p 8082:80 mywebpage
+Map the container port 80 to a free host port (example: 8083):
+docker run -d -p 8083:80 mywebpage
 5. Check Running Containers
    docker ps
 CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                                     NAMES
